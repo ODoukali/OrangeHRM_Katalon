@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login_succes présente l'authentification reussit</description>
+   <name>Login_succes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d6e3917-e95f-42a9-ad62-a011f87d3894</testCaseGuid>
+</TestCaseEntity>
