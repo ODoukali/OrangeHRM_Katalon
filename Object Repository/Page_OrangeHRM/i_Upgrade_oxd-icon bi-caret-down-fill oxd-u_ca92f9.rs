@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Add_oxd-icon bi-plus oxd-button-icon</name>
+   <name>i_Upgrade_oxd-icon bi-caret-down-fill oxd-u_ca92f9</name>
    <tag></tag>
    <elementGuidId>fd10e908-dc30-45ea-90f7-4d509da5a8a2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div/button/i</value>
+         <value>//div[@id='app']/div/div/header/div/div[3]/ul/li/span/i</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>i.oxd-icon.bi-plus.oxd-button-icon</value>
+         <value>i.oxd-icon.bi-caret-down-fill.oxd-userdropdown-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot; Add&quot;i]</value>
+         <value>span >> internal:has-text=&quot;Alpha Beta&quot;i >> i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,38 +29,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>91119f69-93d3-4194-95b0-e63ab36f0cd1</webElementGuid>
+      <webElementGuid>972d7701-020c-4d9c-8590-fb9303dea070</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-icon bi-plus oxd-button-icon</value>
-      <webElementGuid>6c97c0b0-5e1a-48f0-8846-b13aaf892ae0</webElementGuid>
+      <value>oxd-icon bi-caret-down-fill oxd-userdropdown-icon</value>
+      <webElementGuid>64f2752d-c472-45b3-ab23-1625e488a2bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-header-container&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--secondary&quot;]/i[@class=&quot;oxd-icon bi-plus oxd-button-icon&quot;]</value>
-      <webElementGuid>a80990dd-5631-4147-a8f1-f4df1e54d02f</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-header&quot;]/div[@class=&quot;oxd-topbar-header-userarea&quot;]/ul[1]/li[@class=&quot;oxd-userdropdown&quot;]/span[@class=&quot;oxd-userdropdown-tab&quot;]/i[@class=&quot;oxd-icon bi-caret-down-fill oxd-userdropdown-icon&quot;]</value>
+      <webElementGuid>c2b720d3-4620-461c-8d97-21ba11a72942</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div/button/i</value>
-      <webElementGuid>e18721d3-500e-4610-b70d-95b8361f9300</webElementGuid>
+      <value>//div[@id='app']/div/div/header/div/div[3]/ul/li/span/i</value>
+      <webElementGuid>8c10d7ee-2e41-46fe-87f5-d4598a381596</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/button/i</value>
-      <webElementGuid>df9afd9b-83c7-4c72-b638-be690828b09e</webElementGuid>
+      <value>//span/i</value>
+      <webElementGuid>20903481-4602-4ae0-a98e-f2424dab1819</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

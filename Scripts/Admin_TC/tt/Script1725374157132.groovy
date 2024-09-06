@@ -16,22 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import groovy.json.JsonSlurper
-
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'RAIVpflpDOg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/div_Invalid credentials'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/i_Upgrade_oxd-icon bi-caret-down-fill oxd-u_ca92f9'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/div_Invalid credentials'), 'Invalid credentials')
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
 

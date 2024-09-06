@@ -21,35 +21,59 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), '/5S6MFFLcE4mlsixtc6/Tg==')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), Keys.chord(
+        Keys.ENTER))
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
 WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'Admin')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Admin'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/i_Add_oxd-icon bi-plus oxd-button-icon'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Add'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/div_-- Select --'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/div_Admin'))
-
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/div_-- Select --'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'a')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'cris')
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'Messi')
+WebUI.doubleClick(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'YNjdos9KOma3WnfccRMJkw==')
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'p')
+
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'c')
+
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'cris')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'cris')
+
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'cristr')
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/i_Admin_oxd-icon bi-caret-up-fill oxd-selec_1634ee'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/div_SuccessSuccessfully Saved'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Save'))
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 'crist')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Search'))
 

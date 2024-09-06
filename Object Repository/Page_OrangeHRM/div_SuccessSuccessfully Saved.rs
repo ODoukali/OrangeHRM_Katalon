@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Admin</name>
+   <name>div_SuccessSuccessfully Saved</name>
    <tag></tag>
-   <elementGuidId>d571f28f-d358-4712-8e00-ae38fa462f15</elementGuidId>
+   <elementGuidId>ea2c4e11-d15d-42df-b082-27a191ab4980</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.oxd-main-menu-item</value>
+         <value>div.oxd-toast.oxd-toast--success.oxd-toast-container--toast.oxd-toast-list-leave-from.oxd-toast-list-leave-active</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
+         <value>//div[@id='oxd-toaster_1']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Admin&quot;i]</value>
+         <value>internal:text=&quot;SuccessSuccessfully Saved×&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>ac516c34-8e3c-4656-8151-a52dc27f279a</webElementGuid>
+      <value>div</value>
+      <webElementGuid>74979ac0-2760-46b7-90d9-1b54ea09c800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-main-menu-item</value>
-      <webElementGuid>c7ecc4b4-4493-4a32-9d28-ac6697efca26</webElementGuid>
+      <value>oxd-toast oxd-toast--success oxd-toast-container--toast oxd-toast-list-leave-from oxd-toast-list-leave-active</value>
+      <webElementGuid>15ed9aa4-2cc5-4931-bd9e-31f92a47dbf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>aria-live</name>
       <type>Main</type>
-      <value>/web/index.php/admin/viewAdminModule</value>
-      <webElementGuid>e458d873-0196-4911-a4f4-c3483cfebda3</webElementGuid>
+      <value>assertive</value>
+      <webElementGuid>c3335c8e-d19f-4dd3-b8fa-c6844ad7e9f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Admin</value>
-      <webElementGuid>44cca8ce-6334-47d3-8455-f3c58f21a5a3</webElementGuid>
+      <value>SuccessSuccessfully Saved×</value>
+      <webElementGuid>242c31e0-7678-47c6-a3b6-3d209095fbaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>0304d3be-4de2-46c8-8722-9dad509c71bf</webElementGuid>
+      <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--success oxd-toast-container--toast oxd-toast-list-leave-from oxd-toast-list-leave-active&quot;]</value>
+      <webElementGuid>7ee1db23-00fd-4c09-a1f5-2d211340b244</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
-      <webElementGuid>900947c5-173f-4363-8116-8b4669bfbcf4</webElementGuid>
+      <value>//div[@id='oxd-toaster_1']/div</value>
+      <webElementGuid>0cb8437d-9490-4ed7-805a-deaf648b4597</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/web/index.php/admin/viewAdminModule')]</value>
-      <webElementGuid>2fbbd271-9a87-4b5e-baa6-ccc78b596e95</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/following::div[2]</value>
+      <webElementGuid>76976d2a-525f-4aac-b4a8-91bd7ae0981e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/a</value>
-      <webElementGuid>123426bf-ec23-4168-b708-32bb2ba892f1</webElementGuid>
+      <value>//body/div/div[2]/div</value>
+      <webElementGuid>19a0a753-ca52-466f-aa80-f6626a753f20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/web/index.php/admin/viewAdminModule' and (text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>fb1b1a2a-a760-4ac0-9f7a-7b0afd3fbb39</webElementGuid>
+      <value>//div[(text() = 'SuccessSuccessfully Saved×' or . = 'SuccessSuccessfully Saved×')]</value>
+      <webElementGuid>5095fb83-88ee-42f7-9b93-9c8a6ced9f08</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

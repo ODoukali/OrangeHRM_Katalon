@@ -6,12 +6,12 @@
    <elementGuidId>42c0919a-ea94-4be0-bb05-e8bdf41ad15e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ed94932a-6140-41cc-bb49-61a5c182a5bb</webElementGuid>
+      <webElementGuid>b3a32831-88ab-4ac2-8a0f-443b963e3fd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>cff9f242-018f-4522-8869-2acf3131d8c1</webElementGuid>
+      <webElementGuid>2fc25dca-8773-43ec-84f9-7ec7993de84c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space</value>
-      <webElementGuid>5d790d43-945c-491e-849e-476fa607faa1</webElementGuid>
+      <webElementGuid>35eecbff-8408-4b35-a3dd-00399c8aed48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Save </value>
-      <webElementGuid>a9cc8c4d-1447-442b-9820-2ce7d7abbfa9</webElementGuid>
+      <webElementGuid>07592926-a7f9-4b7a-bd09-78bca42c93dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-actions&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space&quot;]</value>
-      <webElementGuid>dd6688d8-1c22-41d9-9c5c-87945a1499c2</webElementGuid>
+      <webElementGuid>bfe77a85-4cbe-4428-8945-81c7d679e7c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>a56567f0-e3bc-4bb9-9692-ded50928892c</webElementGuid>
+      <webElementGuid>81591c3a-2ac0-43bd-94c4-aece22760b53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[3]/button[2]</value>
-      <webElementGuid>8918bc83-5d3f-4ea4-a76e-e282d7296ef6</webElementGuid>
+      <webElementGuid>e63db862-9c03-4572-a50c-efe3c0c68885</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Password'])[1]/following::button[2]</value>
-      <webElementGuid>de90a1dc-9696-44b2-b08c-df853b4e5f54</webElementGuid>
+      <webElementGuid>a73c4623-589c-4e18-9207-a8e27bf99ceb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::button[1]</value>
-      <webElementGuid>1383749c-ad3d-4b4b-b670-94a57b73b0ab</webElementGuid>
+      <webElementGuid>d94fd5c6-4421-4cd5-b736-6d4268d1c161</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
-      <webElementGuid>350e9e5c-8b4d-4db6-8a8f-91e0ccbbe981</webElementGuid>
+      <webElementGuid>63a285fc-e161-4dd7-bccb-3cb78ed53aa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>bdeedafb-dd86-4907-9336-9b0ff5418eda</webElementGuid>
+      <webElementGuid>3ee9939a-a51f-429d-af98-7f4b96af177b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = ' Save ' or . = ' Save ')]</value>
-      <webElementGuid>c7c6b5cd-4c05-4ac4-828f-ba778d436124</webElementGuid>
+      <webElementGuid>e11c1b20-beba-4a8f-98e5-210f09553a23</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
